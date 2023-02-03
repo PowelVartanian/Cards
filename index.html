@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Creepster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Rick And Morty - Character Guide</title>
+  </head>
+  <body>
+    <nav>
+      <audio
+        controls
+        data-plyr='{ "controls": ["play", "progress", "current-time", "mute", "volume"] }'
+        loop
+      >
+        <source src="/audio/Themesong.mp3" type="audio/mpeg" />
+        Your browser does not support this audio
+      </audio>
+      <h3 class="song">press for Theme song</h3>
+    </nav>
+    <header>
+      <h1 class="title">RICK AND MORTY</h1>
+      <h1 class="title">ULTIMATE CHARACTER GUIDE</h1>
+      <h2 class="reveal">click a card to reveal whats behind</h2>
+    </header>
+
+    <div class="container">
+      <div class="wrap">
+        <div data-aos="fade-up">
+          <div class="card one" onclick="flipCard(this)">
+            <div class="front">
+              <h1>RICK SANCHEZ</h1>
+            </div>
+            <div class="back">
+              <h2>Rick Sanchez</h2>
+              <p>Grandfather of Morty Smith</p>
+              <p>Smartest being in the universe</p>
+              <p>inventor</p>
+              <p>Scientist</p>
+              <p>alcoholic</p>
+              <p>wubba lubba dub dub</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card two" onclick="flipCard(this)">
+            <div class="front">
+              <h1>MORTY SMITH</h1>
+            </div>
+            <div class="back">
+              <h2>Morty Smith</h2>
+              <p>son of jerry and beth smith</p>
+              <p>easily influenced</p>
+              <p>struggles with moral implications</p>
+              <p>dragged into all of Rick's plans</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card three" onclick="flipCard(this)">
+            <div class="front">
+              <h1>SUMMER SMITH</h1>
+            </div>
+            <div class="back">
+              <h2>Summer smith</h2>
+              <p>Morty's older sister</p>
+              <p>sometimes dragged into ricks plans</p>
+              <p>typical teenager</p>
+              <p>calls rick out for unethical actions</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card five" onclick="flipCard(this)">
+            <div class="front">
+              <h1>JERRY SMITH</h1>
+            </div>
+            <div class="back">
+              <h2>Jerry smith</h2>
+              <p>Morty and summer's father</p>
+              <p>beths husband</p>
+              <p>kind of a loser</p>
+              <p>gets respect from no one</p>
+              <p>cry baby</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card six" onclick="flipCard(this)">
+            <div class="front">
+              <h1>BETH SMITH</h1>
+            </div>
+            <div class="back">
+              <h2>beth smith</h2>
+              <p>morty and summer's mom</p>
+              <p>jerry's wife</p>
+              <p>rick's daughter</p>
+              <p>professional horse surgeon</p>
+              <p>might be a clone</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card seven" onclick="flipCard(this)">
+            <div class="front">
+              <h1>BIRDPERSON</h1>
+            </div>
+            <div class="back">
+              <h2>BIRDPERSON</h2>
+              <p>half bird</p>
+              <p>half person</p>
+              <p>Rick's bestfriend</p>
+              <p>got married to summers friend</p>
+              <p>wife tried to murder him during wedding</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card eight" onclick="flipCard(this)">
+            <div class="front">
+              <h1>MR. NIMBUS</h1>
+            </div>
+            <div class="back">
+              <h2>Mr. nimbus</h2>
+              <p>King of the ocean</p>
+              <p>Ricks nemsis</p>
+              <p>way too weird</p>
+              <p>thrusts his junk every chance he gets</p>
+              <p>
+                saved rick, morty, and jessica from dying in a different world
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card nine" onclick="flipCard(this)">
+            <div class="front">
+              <h1>JESSICA</h1>
+            </div>
+            <div class="back">
+              <h2>Jessica</h2>
+              <p>Morty's love interest</p>
+              <p>attends harry herpson highschool</p>
+              <p>is aware of rick and mortys adventures</p>
+              <p>got kidnapped and frozen for centuries</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card ten" onclick="flipCard(this)">
+            <div class="front">
+              <h1>POOPYBUTTHOLE</h1>
+            </div>
+            <div class="back">
+              <h2>Mr. POOPYBUTTHOLE</h2>
+              <p>rick's second companion</p>
+              <p>friend of the smith family</p>
+              <p>from different planet where he's a global superstar</p>
+              <p>always happy</p>
+              <p>got shot by beth</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card eleven" onclick="flipCard(this)">
+            <div class="front">
+              <h1>THE MEESEEKS</h1>
+            </div>
+            <div class="back">
+              <h2>the Meeseeks</h2>
+              <p>An invention of rick's</p>
+              <p>One will spawn in when called</p>
+              <p>it will help with a simple task then despawn</p>
+              <p>if they dont complete task, they become crazy</p>
+              <p>for them, existance is pain</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card tlv" onclick="flipCard(this)">
+            <div class="front">
+              <h1>MR. PRESIDENT</h1>
+            </div>
+            <div class="back">
+              <h2>Mr. president</h2>
+              <p>the president</p>
+              <p>will not take a selfie with anyone</p>
+              <p>hates rick and morty</p>
+              <p>pretty cool guy</p>
+              <p>not corrupt</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card thirteen" onclick="flipCard(this)">
+            <div class="front">
+              <h1>SQUANCHY</h1>
+            </div>
+            <div class="back">
+              <h2>SQUANCHY</h2>
+              <p>cat-like anthropomorphic creature</p>
+              <p>Was in a band with rick and birdperson</p>
+              <p>he was the drummer</p>
+              <p>Wild behavior</p>
+              <p>party animal</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card ftn" onclick="flipCard(this)">
+            <div class="front">
+              <h1>THE DEVIL</h1>
+            </div>
+            <div class="back">
+              <h2>the devil</h2>
+              <p>Owner of a cursed shop</p>
+              <p>all the items are "free"</p>
+              <p>all items have power but also a curse</p>
+              <p>example:</p>
+              <p>potion that makes you turn beautiful but also blind</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <div class="card fith" onclick="flipCard(this)">
+            <div class="front">
+              <h1>SPACE CRUISER</h1>
+            </div>
+            <div class="back">
+              <h2>space cruiser</h2>
+              <p>designed and built by rick</p>
+              <p>has many features, such as:</p>
+              <p>laser miniguns</p>
+              <p>invisibility</p>
+              <p>built-in mop</p>
+              <p>speaker for cool music</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <h5>COPYRIGHT &copy;</h5>
+        <h5>RICK AND MORTY [adult swim]</h5>
+        <h5>POWEL VARTANIAN</h5>
+      </footer>
+    </div>
+
+    <script src="flipping.js"></script>
+    <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

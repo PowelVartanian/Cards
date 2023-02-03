@@ -1,0 +1,393 @@
+body {
+	font-family: 'Creepster', cursive;
+	background: url(/images/heading.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+@media screen and (max-width: 667.8px) {
+	body {
+		font-family: 'Creepster', cursive;
+		background: url(/images/phonebackground.jpg);
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+}
+
+@media screen and (max-width: 667.8px) {
+	header {
+		height: 99vh;
+		width: 100%;
+	}
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 667.8px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+audio {
+	width: 30%;
+	height: 2.5rem;
+	opacity: .8;
+}
+
+audio::-webkit-media-controls-panel {
+	background-color: rgb(68, 128, 0);
+}
+
+audio::-webkit-media-controls-mute-button {
+	background-color: rgb(75, 139, 1);
+  border-radius: 20px;
+}
+
+.song {
+	background-color: rgb(68, 128, 0);
+	color: black;
+	margin-left: 3rem;
+	padding: .5rem;
+	border-radius: 20px;
+	display: inline-block;
+	text-align: center;
+	opacity: .7;
+  width: 20%;
+}
+
+@media screen and (max-width: 667.8px) {
+  audio {
+    width: 80%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    opacity: .9;
+  }
+
+	audio::-webkit-media-controls-panel {
+		background-color: rgb(63, 33, 134);
+		padding: .3rem 1rem .3rem 1rem;
+	}
+	
+	audio::-webkit-media-controls-mute-button {
+		background-color: rgb(84, 50, 163);
+		border-radius: 20px;
+	}
+
+	.song {
+		background-color: rgb(63, 33, 134);
+		color: rgb(0, 0, 0);
+		margin-left: 3rem;
+		padding: .7rem;
+		border-radius: 20px;
+		display: inline-block;
+		text-align: center;
+		opacity: .9;
+    width: 75%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+	}
+}
+
+
+.title {
+	background: #DCFF7A;
+	background: repeating-radial-gradient(ellipse farthest-corner at bottom center, #DCFF7A 26%, #4D3C4D 83%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+  text-align: center;
+	letter-spacing: 8px;
+	margin-bottom: 3rem;
+	font-family: 'Creepster', cursive;
+	font-size: 6rem;
+	opacity: .8;
+}
+
+
+@media screen and (max-width: 667.8px) {
+	.title {
+		font-size: 4rem;
+		margin-top: 20vw;
+		background: #a5b8f6;
+		background: repeating-radial-gradient(ellipse farthest-corner at bottom center, #D1DCFF 26%, #4D3C4D 83%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		opacity: 1;
+	}
+}
+
+
+
+h2 {
+	text-align: center;
+	font-size: 2rem;
+	letter-spacing: 1px;
+	background: #95f498;
+  background: radial-gradient(ellipse farthest-corner at center center, #00B506 0%, #2EFF81 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+	color: rgb(218, 242, 204);
+	letter-spacing: 1px;
+	font-size: 1.5rem;
+	font-weight: 600;
+	font-family: 'Amatic SC', cursive;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+
+.container {
+	width: 100%;
+	height: 500px;
+}
+
+.wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.card {
+	margin: 10px;
+	width: 300px;
+	height: 490px;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(255, 109, 199, 0.7);
+	        box-shadow: 0 0 15px rgba(255, 109, 199, 0.7);
+	margin: 3rem;
+}
+
+@media screen and (max-width: 667.8px) {
+	.card {
+		margin: 60px 10px 60px 10px;
+		width: 300px;
+		height: 490px;
+		text-align: center;
+		border-radius: 3px;
+		-webkit-transition: 200ms ease-in-out;
+		-o-transition: 200ms ease-in-out;
+		transition: 200ms ease-in-out;
+		-webkit-box-shadow: 0 0 15px rgba(255, 109, 199, 0.7);
+						box-shadow: 0 0 15px rgba(255, 109, 199, 0.7);
+	}
+}
+
+
+.card:hover {
+	margin-bottom: -5px;
+	-webkit-box-shadow: 0 0 5px rgba(253, 143, 222 );
+	        box-shadow: 0 0 5px rgba(231, 151, 221);
+}
+.card h1 {
+	color: rgb(234, 192, 231);
+	padding: 30px;
+	margin-top: 50px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 2.5rem;
+	background: rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.one {
+	background: url('/images/Rick.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.two {
+	background: url('/images/morty.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.three {
+	background: url('/images/summer.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.five {
+	background: url('/images/Jerry.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.six {
+	background: url('/images/beth.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.seven {
+	background: url('/images/birdperson.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.eight {
+	background: url('/images/Nimbus.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.nine {
+	background: url('/images/jessica.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.ten {
+	background: url('/images/poopybutt.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.eleven {
+	background: url('/images/meeseeks.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.tlv {
+	background: url('/images/president.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.thirteen {
+	background: url('/images/squanchy.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ftn {
+	background: url('/images/devil.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.fith {
+	background: url('/images/spaceship.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.card .back {
+	background: url(/images/running.png);
+	background-position: center;
+	background-size: cover;
+	border: 3px solid black;
+	border-radius: 1rem;
+	transform: rotateY(180deg); /* Shows the back side */
+}
+
+@media screen and (max-width: 667.8px) {
+	.card .back {
+		background: url(/images/back.jpg);
+		background-position: center;
+		background-size: cover;
+		border: 3px solid black;
+		border-radius: 1rem;
+		transform: rotateY(180deg); /* Shows the back side */
+	}
+	
+}
+
+.card {
+	border-radius: 1rem;
+	width: 300px;
+	height: 490px;
+	position: relative;
+	transition: transform  ease-in 1s; /* Adds transition to the flip effect */
+	transform-style: preserve-3d; /* Enables 3D space */
+}
+
+.card .front, .card .back {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden; /* Hides the back side when the front side is shown */
+	backface-visibility: hidden;
+}
+
+.card.flipped {
+	transform: rotateY(180deg); /* Flips the entire card */
+}
+
+
+footer {
+	margin-top: 5rem;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(238, 255, 0);
+	opacity: .8;
+	background: black;
+}
+
+h5 {
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	padding-right: 2rem;
+}
+
+@media screen and (max-width: 667.8px) {
+	footer {
+		text-align: center;
+		font-family: 'Times New Roman', Times, serif;
+		color: rgb(238, 255, 0);
+		opacity: .8;
+		background: black;
+		vertical-align: middle;
+	}
+
+	h5 {
+		display:block;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: .4rem;
+		padding-top: .4rem;
+	}
+}
